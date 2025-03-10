@@ -1,0 +1,24 @@
+.title{
+    height: 150px;
+    text-align: center;
+    background-color: aqua;
+    border: 5px ridge black;
+    border-radius: 5%;
+}
+body{
+    background-color: aquamarine;
+}
+.playButton{
+    height: 175px;
+    width: 175px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: 1.15em;
+}
+.playButton-grow {
+    transition: all 0.3s ease-in-out;
+}
+  
+.playButton-grow:hover {
+    transform: scale(1.1);
+}
