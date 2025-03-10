@@ -14,6 +14,7 @@ body{
     background-color: antiquewhite;
     cursor: pointer;
     font-size: 1.15em;
+    margin: 25px;
 }
 .playButton-grow {
     transition: all 0.3s ease-in-out;
